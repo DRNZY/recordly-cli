@@ -1,0 +1,14 @@
+Recordly CLI (recordly-cli)
+Copyright (C) 2026 Darnell Dijksteel and Contributors
+
+This product incorporates, adapts, and builds upon algorithms and concepts derived from:
+
+1. Recordly
+   Copyright (C) 2026 webadderall
+   Licensed under the GNU Affero General Public License version 3 (AGPLv3).
+   https://github.com/webadderallorg/Recordly
+
+2. OpenScreen
+   Copyright (c) 2025 Siddharth Vaddem
+   Licensed under the MIT License.
+   https://github.com/siddharthvaddem/OpenScreen

@@ -1,0 +1,43 @@
+{
+  "name": "recordly-cli",
+  "version": "1.0.0",
+  "description": "Headless CLI and rendering engine for Screen Studio-style auto-zoomed videos, smooth cursor paths, and wallpaper padding.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "recordly": "./dist/bin/recordly.js",
+    "recordly-cli": "./dist/bin/recordly.js"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "start": "node dist/bin/recordly.js",
+    "demo": "node dist/bin/recordly.js demo"
+  },
+  "keywords": [
+    "screen-studio",
+    "auto-zoom",
+    "cursor-smoothing",
+    "video-editor",
+    "headless",
+    "ffmpeg",
+    "cli"
+  ],
+  "author": "Darnell Dijksteel <darnell.dijksteel@gmail.com>",
+  "license": "AGPL-3.0-or-later",
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.68",
+    "commander": "^13.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.5",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.7"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
